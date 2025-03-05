@@ -1,0 +1,6 @@
+k=len(words)
+        arr=[]
+        for i in range(0,k):
+            if (x in words[i]):
+                arr.append(i)
+        return arr
