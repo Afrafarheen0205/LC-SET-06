@@ -1,0 +1,5 @@
+k=len(nums)
+        for i in range(0,k):
+            nums[i]=nums[i]*nums[i]
+        nums.sort()
+        return nums
